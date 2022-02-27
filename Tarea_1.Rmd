@@ -12,6 +12,12 @@ output: html_document
 pais_andes = as.factor (c("Argentina", "Bolivia", "Chile", "Colombia", "Ecuador", "Perú", "Venezuela"))
 **Crear un dataframe con 12 eventos (files) y 5 variables (columnas),Cada columna debe tener diferentes tipos de datos (entero, decimal, caracter, logico)**
 
+MUJERES_QUE_HAN_VIVIDO_ALGÚN_TIPO_DE_VIOLENCIA_DE_GÉNERO = data.frame("Provincias" = c("Azuay", "Tungurahua", "Pichincha","Morona Santiago", "Imbabura", "Cotopaxi","Esmeraldas", "Guayas", "Loja", "Napo", "Pastaza", "Orellana"),
+                  "Mujeres violentadas" = c("195.622","142.132", "714.348", "32.406", "95.718", "95.909", "103.126", "775.537", "99.803", "21.401", "19.105", "19.937"), 
+                  "Mujeres no violentadas" = c("88.916", "58.648", "309.216", "12.203", "55.054", "55.902", "73.991", "594.574", "68.447", "11.358", "8.280", "20.409"),
+                  "Total mujeres investigadas" = c("284.538", "200.780", "1.023.564", "44.609", "150.772", "151.811", "177.117", "1.370.111", "168.250", "32.759", "27.385", "40.346"),
+                  "% de mujeres violentadas" = c("68,8%", "70,8%", "69,8%", "72,6%", "63,5%", "63,2%", "58,2%", "56,6%", "59,3%", "65,3%", "69,8%", "49,4%"))
+                  
 **Cargue el dataset "DNase" e identifique su estructura.**
 data()
 DNase
