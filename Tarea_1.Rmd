@@ -5,8 +5,16 @@ date: "26/2/2022"
 output: html_document
 ---
 **Crear un indetificador de nombre "ciudad" y asigne como valor el nombre de alguna ciudad**
-  
+
   ciudad = "Puyo" 
 **Crear un identificador de nombre "pais_andes" y asigne como valor los nombres de los países por donde cruza la cordillera de Los Andes**
 
 pais_andes = as.factor (c("Argentina", "Bolivia", "Chile", "Colombia", "Ecuador", "Perú", "Venezuela"))
+**Crear un dataframe con 12 eventos (files) y 5 variables (columnas),Cada columna debe tener diferentes tipos de datos (entero, decimal, caracter, logico)**
+
+**Cargue el dataset "DNase" e identifique su estructura.**
+data()
+DNase
+head(DNase,12)
+str(DNase)
+
