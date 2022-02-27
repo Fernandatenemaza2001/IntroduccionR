@@ -1,0 +1,10 @@
+---
+title: "Introducción_R"
+author: "Fernanda Tenemaza"
+date: "26/2/2022"
+output: html_document
+---
+**Crear un indetificador de nombre "ciudad" y asigne como valor el nombre de alguna ciudad**
+  
+  ciudad = "Puyo" 
+  
